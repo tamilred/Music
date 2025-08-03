@@ -8,7 +8,7 @@ load_dotenv()
 bot = Client("audio_bot",
              api_id=int(os.getenv("API_ID")),
              api_hash=os.getenv("API_HASH"),
-             bot_token=os.getenv("BOT_TOKEN"))
+             bot_token=os.getenv("7862056115:AAFNI7xK67X6VdUeqhC-5Jjtp_CI1Djagm4"))
 
 mongo = MongoClient(os.getenv("MONGO_URI"))
 db = mongo["audio_bot"]
