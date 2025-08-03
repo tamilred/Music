@@ -16,7 +16,7 @@ users = db["users"]
 audios = db["audios"]
 tokens = db["tokens"]
 
-ADMIN_ID = int(os.getenv("ADMIN_ID"))
+ADMIN_ID = int(os.getenv("7299955528"))
 CHANNEL = os.getenv("CHANNEL_USERNAME")
 ACCESS_PASSWORD = os.getenv("ACCESS_PASSWORD")
 SUB_DAYS = int(os.getenv("SUBSCRIPTION_DAYS"))
